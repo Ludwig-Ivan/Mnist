@@ -28,4 +28,4 @@ COPY . .
 # Exponer puerto 
 EXPOSE 8080 
 # Comando de ejecución 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"] 
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"] 
